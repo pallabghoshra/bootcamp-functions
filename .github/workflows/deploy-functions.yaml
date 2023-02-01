@@ -16,6 +16,8 @@ jobs:
       trigger_deploy_all_folders: >-
         (
         "common"
+        "execute_rest_extractor"
+        "oee_timeseries"
         )
 
   deploy:
